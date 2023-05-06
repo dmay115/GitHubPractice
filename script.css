@@ -1,0 +1,51 @@
+/* Center the login form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+body {
+    min-height: 100vh;
+    background: conic-gradient(from 90deg, rgb(46, 10, 102), rgb(4, 49, 100), rgb(46, 155, 228))
+}
+
+/* Style the form labels and inputs */
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Style the page header */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
